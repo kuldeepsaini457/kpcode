@@ -19,10 +19,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'mj0*p&*javn0i8nkl*)by2*bic0)q9_2vngh(wj0oy&e&6&hr#'
 
-DEBUG = os.environ.get('DEBUG_VALUE',False)
+DEBUG =False #os.environ.get('DEBUG_VALUE',False)
 
 
-ALLOWED_HOSTS = ['https://kpcode.herokuapp.com/','127.0.0.1']
+ALLOWED_HOSTS = ['kpcode.herokuapp.com','127.0.0.1']
 
 
 
